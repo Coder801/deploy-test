@@ -1,0 +1,15 @@
+.textarea,
+.input {
+  border: 2px solid var(--secondary-four);
+  height: 60px;
+  width: 100%;
+  display: block;
+  color: var(--text-primary);
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.textarea {
+  height: 150px;
+}

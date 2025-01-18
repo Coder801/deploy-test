@@ -1,0 +1,13 @@
+{
+  "name": "@repo/styles",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "index.css",
+  "private": true,
+  "exports": {
+    "./mixin": "./src/_mixins.scss"
+  },
+  "dependencies": {
+    "sass": "^1.83.1"
+  }
+}

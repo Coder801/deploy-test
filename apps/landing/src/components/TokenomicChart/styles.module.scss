@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & .chart {
+    position: relative;
+
+    & .caption {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100px;
+    }
+
+    & .image {
+      max-width: 100%;
+    }
+
+    & .ecosystem {
+      top: 15%;
+      left: -10%;
+    }
+    & .airdrop {
+      top: 108%;
+      left: 30%;
+    }
+    & .contributors {
+      top: 56%;
+      left: -21%;
+    }
+    & .private-sale {
+      top: -5%;
+      left: 10%;
+    }
+    & .community-presale {
+      top: -14%;
+      left: 52%;
+    }
+    & .advisory {
+      top: -11%;
+      left: 83%;
+    }
+    & .binance-launchpool {
+      top: 7%;
+      left: 104%;
+    }
+  }
+}

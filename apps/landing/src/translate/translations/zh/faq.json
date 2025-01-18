@@ -1,0 +1,58 @@
+{
+  "pageTitle": "如何购买 $PEPEMEME 加密货币代币",
+  "pageName": "常见问题",
+  "title": "如何购买 $PEPEMEME",
+  "steps": [
+    {
+      "title": "设置兼容的钱包",
+      "text1": "要购买 $PEPEMEME，您需要一个支持该代币的钱包。根据它所基于的区块链，选择以下钱包之一：",
+      "list1": [
+        "Phantom Wallet（适用于 Solana）",
+        "MetaMask（适用于 Ethereum、Binance Smart Chain 和其他兼容链）"
+      ],
+      "text2": "确保您的钱包已设置并且包含完成交易所需的资金。"
+    },
+    {
+      "title": "获取所需的加密货币",
+      "text1": "Presale 可能只接受特定的加密货币，如：",
+      "list1": ["Solana (SOL)", "Ethereum (ETH)", "Tether (USDT)"],
+      "text2": "如果您没有所需的加密货币，可以在以下流行的交易所购买：",
+      "list2": ["Coinbase", "Binance", "Kraken"],
+      "text3": "购买后，请将所需的加密货币转账到您的钱包中。"
+    },
+    {
+      "title": "访问 $PEPEMEME Presale 页面",
+      "text1": "访问 $PEPEMEME 的官方 presale 页面。始终确保您访问的是正确的网站，以避免诈骗——请通过官方社交媒体渠道或公告检查准确的 URL。"
+    },
+    {
+      "title": "连接您的钱包",
+      "text1": "点击 “连接钱包” 按钮。选择您的钱包提供商（例如 Phantom 或 MetaMask），然后按照屏幕上的说明连接您的钱包。连接后，请确认钱包连接。"
+    },
+    {
+      "title": "选择购买的数量",
+      "text1": "连接钱包后，您可以选择购买多少 $PEPEMEME 代币。某些 presale 会为早期参与者提供 奖励 或 折扣，因此请注意这些机会。"
+    },
+    {
+      "title": "确认交易",
+      "text1": "查看您的交易详情：",
+      "list1": [
+        "您要购买的 $PEPEMEME 数量",
+        "您将使用的加密货币",
+        "网络费用（有时是小额的 gas 费用）"
+      ],
+      "text2": "确认并在您的钱包中批准交易。"
+    },
+    {
+      "title": "领取您的代币",
+      "text1": "Presale 结束后，$PEPEMEME 代币将可以领取。按照 $PEPEMEME 团队提供的指示，在代币正式分发后领取您的代币。"
+    },
+    {
+      "title": "重要说明：",
+      "list1": [
+        "始终确认您访问的是官方网站，并通过社交媒体渠道验证 URL，以确保您在合法的 presale 页面上。",
+        "请确保您了解根据选择的加密货币和钱包可能会产生的网络费用。",
+        "presale 的代币通常在 presale 结束后才能领取，请耐心等待并关注团队的更新。"
+      ]
+    }
+  ]
+}

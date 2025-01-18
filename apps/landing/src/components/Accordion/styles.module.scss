@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+
+  & .title {
+    position: relative;
+    padding-right: 70px;
+    text-align-last: left;
+    padding: 20px;
+    font-size: 36px;
+    cursor: pointer;
+
+    &:after {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 20px;
+      content: "";
+      width: 29px;
+      height: 29px;
+      background: linear-gradient(
+          to right,
+          transparent 45%,
+          var(--white-one) 45%,
+          var(--white-one) 55%,
+          transparent 55%
+        ),
+        linear-gradient(
+          to bottom,
+          transparent 45%,
+          var(--white-one) 45%,
+          var(--white-one) 55%,
+          transparent 55%
+        );
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      transition: 0.3s ease;
+    }
+
+    &.active {
+      &:after {
+        transform: translateY(-50%) rotate(135deg);
+      }
+    }
+  }
+
+  & .content {
+    text-align: left;
+    color: var(--white-one);
+    padding: 0 20px 20px;
+  }
+}

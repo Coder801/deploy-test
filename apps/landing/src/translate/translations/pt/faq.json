@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Como comprar tokens de criptomoeda $PEPEMEME",
+  "pageName": "Perguntas frequentes",
+  "title": "Como Comprar $PEPEMEME",
+  "steps": [
+    {
+      "title": "Configure uma carteira compatível",
+      "text1": "Para comprar $PEPEMEME, você precisará de uma carteira que suporte o token. Dependendo da blockchain em que ele está baseado, escolha uma das seguintes carteiras:",
+      "list1": [
+        "Phantom Wallet (para Solana)",
+        "MetaMask (para Ethereum, Binance Smart Chain e outras blockchains compatíveis)"
+      ],
+      "text2": "Certifique-se de que sua carteira está configurada e possui os fundos necessários para concluir a transação."
+    },
+    {
+      "title": "Obtenha a criptomoeda necessária",
+      "text1": "A presale pode aceitar criptomoedas específicas, como:",
+      "list1": ["Solana (SOL)", "Ethereum (ETH)", "Tether (USDT)"],
+      "text2": "Se você não tiver a criptomoeda necessária, pode comprá-la em exchanges populares como:",
+      "list2": ["Coinbase", "Binance", "Kraken"],
+      "text3": "Após a compra, transfira a criptomoeda necessária para sua carteira."
+    },
+    {
+      "title": "Acesse a página da presale do $PEPEMEME",
+      "text1": "Acesse a página oficial da presale de $PEPEMEME. Sempre verifique se você está no site correto para evitar golpes. Confira os canais oficiais nas redes sociais para obter o URL correto."
+    },
+    {
+      "title": "Conecte sua carteira",
+      "text1": "Clique no botão “Conectar Carteira”. Escolha seu provedor de carteira (como Phantom ou MetaMask) e siga as instruções na tela para conectar sua carteira. Após a conexão, aprove a conexão da carteira."
+    },
+    {
+      "title": "Selecione a quantidade a ser comprada",
+      "text1": "Após conectar sua carteira, você poderá selecionar a quantidade de $PEPEMEME que deseja comprar. Algumas presales oferecem bônus ou descontos para os primeiros participantes, então fique atento a essas oportunidades."
+    },
+    {
+      "title": "Confirme a transação",
+      "text1": "Revise os detalhes da transação:",
+      "list1": [
+        "A quantidade de $PEPEMEME que você deseja comprar",
+        "A criptomoeda que você está utilizando para pagar",
+        "As taxas de rede (às vezes há pequenas taxas de gás)"
+      ],
+      "text2": "Confirme e aprove a transação em sua carteira."
+    },
+    {
+      "title": "Reclame seus tokens",
+      "text1": "Após o término da presale, os tokens $PEPEMEME estarão disponíveis para serem reclamados. Siga as instruções fornecidas pela equipe do $PEPEMEME para reclamar seus tokens assim que forem oficialmente distribuídos."
+    },
+    {
+      "title": "Notas importantes:",
+      "list1": [
+        "Sempre verifique duas vezes o site oficial e os canais sociais para garantir que você está na página legítima da presale.",
+        "Certifique-se de entender todas as taxas de rede que podem ser aplicadas dependendo da criptomoeda e da carteira que você escolher.",
+        "Os tokens da presale geralmente podem ser reclamados após o término da presale, então tenha paciência e acompanhe as atualizações da equipe."
+      ]
+    }
+  ]
+}

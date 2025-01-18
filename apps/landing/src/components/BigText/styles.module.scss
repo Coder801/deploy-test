@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  font-size: calc(100vw / 4);
+  white-space: nowrap;
+  text-align: center;
+  position: relative;
+
+  & .first {
+    color: var(--color-nine);
+  }
+
+  & .last {
+    color: var(--color-seven);
+  }
+}

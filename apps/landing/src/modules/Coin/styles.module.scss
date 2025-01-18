@@ -1,0 +1,68 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+
+  & .starlets {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 200vh;
+  }
+
+  & .bottomBackground {
+    bottom: 0;
+    top: unset;
+    position: absolute;
+    z-index: 0;
+  }
+
+  & .planets {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  & .coin {
+    position: absolute;
+    top: calc(25% - 5em);
+    left: calc(50% - 5em);
+    z-index: 100;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  height: 100vh;
+  padding-top: 300px;
+
+  & .image {
+    margin-bottom: 30px;
+  }
+
+  & .title {
+    margin-bottom: 20px;
+  }
+
+  & .text {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  & .currency {
+    margin-bottom: 40px;
+  }
+
+  & .button {
+    margin-bottom: 0;
+  }
+}

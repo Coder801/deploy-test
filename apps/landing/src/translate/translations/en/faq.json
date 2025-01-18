@@ -1,0 +1,58 @@
+{
+  "pageTitle": "How to buy $PEPEMEME cryptocurrency tokens",
+  "pageName": "FAQ",
+  "title": "How to Buy $PEPEMEME",
+  "steps": [
+    {
+      "title": "Set Up a Compatible Wallet",
+      "text1": "To buy $PEPEMEME, you’ll need a wallet that supports the token. Depending on the blockchain it’s built on, choose one of the following wallets:",
+      "list1": [
+        "Phantom Wallet (for Solana)",
+        "MetaMask (for Ethereum, Binance Smart Chain, and other compatible chains)"
+      ],
+      "text2": "Make sure your wallet is set up and contains the necessary funds to complete the transaction."
+    },
+    {
+      "title": "Get the Required Cryptocurrency",
+      "text1": "The presale may accept specific cryptocurrencies like:",
+      "list1": ["Solana (SOL)", "Ethereum (ETH)", "Tether (USDT)"],
+      "text2": "If you don’t have the required cryptocurrency, you can buy it on popular exchanges like:",
+      "list2": ["Coinbase", "Binance", "Kraken"],
+      "text3": "Once purchased, transfer the required cryptocurrency to your wallet."
+    },
+    {
+      "title": "Visit the $PEPEMEME Presale Page",
+      "text1": "Navigate to the official $PEPEMEME presale page. Always ensure you’re on the correct website to avoid scams — double-check official social media channels or announcements for the accurate URL."
+    },
+    {
+      "title": "Connect Your Wallet",
+      "text1": "Click on the “Connect Wallet” button. Choose your wallet provider (e.g., Phantom or MetaMask) and follow the on-screen instructions to link your wallet. Once connected, approve the wallet connection."
+    },
+    {
+      "title": "Select the Amount to Purchase",
+      "text1": "After connecting your wallet, you’ll be able to choose how many $PEPEMEME tokens you want to buy. Some presales offer bonuses or discounts for early participants, so keep an eye out for those opportunities."
+    },
+    {
+      "title": "Confirm the Transaction",
+      "text1": "Review the transaction details:",
+      "list1": [
+        "The amount of $PEPEMEME you want to buy",
+        "The cryptocurrency you’re using to purchase",
+        "Network fees (sometimes small gas fees)"
+      ],
+      "text2": "Confirm and approve the transaction in your wallet."
+    },
+    {
+      "title": "Claim Your Tokens",
+      "text1": "Once the presale concludes, $PEPEMEME tokens will be available to claim. Follow the instructions provided by the $PEPEMEME team to claim your tokens once they are officially distributed."
+    },
+    {
+      "title": "Important Notes:",
+      "list1": [
+        "Always double-check the official website and social media channels to ensure you’re on the legitimate presale page.",
+        "Make sure you understand any network fees that may apply depending on your chosen cryptocurrency and wallet.",
+        "Presale tokens are typically claimable after the presale ends, so be patient and follow any updates from the team."
+      ]
+    }
+  ]
+}

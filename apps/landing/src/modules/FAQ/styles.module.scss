@@ -1,0 +1,38 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0 200px;
+
+  & .starlets {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  & .bottomBackground {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: unset;
+    z-index: 0;
+  }
+}
+
+.container {
+  width: 100%;
+
+  & .title {
+    margin-bottom: 40px;
+  }
+
+  & .accordion {
+    margin-bottom: 20px;
+  }
+
+  & .form {
+    margin-top: 100px;
+  }
+}

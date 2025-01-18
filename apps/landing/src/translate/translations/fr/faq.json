@@ -1,0 +1,58 @@
+{
+  "pageTitle": "Comment acheter des tokens de cryptomonnaie $PEPEMEME",
+  "pageName": "FAQ",
+  "title": "Comment acheter $PEPEMEME",
+  "steps": [
+    {
+      "title": "Configurer un portefeuille compatible",
+      "text1": "Pour acheter $PEPEMEME, vous aurez besoin d'un portefeuille qui prend en charge le jeton. En fonction de la blockchain sur laquelle il est construit, choisissez l'un des portefeuilles suivants :",
+      "list1": [
+        "Phantom Wallet (pour Solana)",
+        "MetaMask (pour Ethereum, Binance Smart Chain et d'autres blockchains compatibles)"
+      ],
+      "text2": "Assurez-vous que votre portefeuille est configuré et contient les fonds nécessaires pour effectuer la transaction."
+    },
+    {
+      "title": "Obtenez la cryptomonnaie requise",
+      "text1": "La presale peut accepter des cryptomonnaies spécifiques, telles que :",
+      "list1": ["Solana (SOL)", "Ethereum (ETH)", "Tether (USDT)"],
+      "text2": "Si vous n'avez pas la cryptomonnaie requise, vous pouvez l'acheter sur des plateformes d'échange populaires comme :",
+      "list2": ["Coinbase", "Binance", "Kraken"],
+      "text3": "Une fois achetée, transférez la cryptomonnaie requise dans votre portefeuille."
+    },
+    {
+      "title": "Accédez à la page de presale de $PEPEMEME",
+      "text1": "Allez sur la page officielle de la presale de $PEPEMEME. Assurez-vous toujours d’être sur le bon site pour éviter les escroqueries — vérifiez les canaux officiels sur les réseaux sociaux ou les annonces pour obtenir l'URL correcte."
+    },
+    {
+      "title": "Connectez votre portefeuille",
+      "text1": "Cliquez sur le bouton \"Connecter le portefeuille\". Choisissez votre fournisseur de portefeuille (par exemple Phantom ou MetaMask) et suivez les instructions à l'écran pour connecter votre portefeuille. Une fois connecté, approuvez la connexion du portefeuille."
+    },
+    {
+      "title": "Sélectionnez le montant à acheter",
+      "text1": "Après avoir connecté votre portefeuille, vous pourrez choisir le nombre de $PEPEMEME que vous souhaitez acheter. Certaines presales offrent des bonus ou des réductions pour les premiers participants, alors surveillez ces opportunités."
+    },
+    {
+      "title": "Confirmez la transaction",
+      "text1": "Vérifiez les détails de votre transaction :",
+      "list1": [
+        "Le nombre de $PEPEMEME que vous souhaitez acheter",
+        "La cryptomonnaie que vous utilisez pour acheter",
+        "Les frais de réseau (parfois des frais de gas peu élevés)"
+      ],
+      "text2": "Confirmez et approuvez la transaction dans votre portefeuille."
+    },
+    {
+      "title": "Réclamez vos tokens",
+      "text1": "Une fois que la presale est terminée, les tokens $PEPEMEME seront disponibles pour être réclamés. Suivez les instructions fournies par l'équipe $PEPEMEME pour réclamer vos tokens une fois qu'ils seront officiellement distribués."
+    },
+    {
+      "title": "Notes importantes :",
+      "list1": [
+        "Vérifiez toujours deux fois que vous êtes sur le site officiel et consultez les canaux sociaux pour vous assurer que vous êtes sur la page légitime de la presale.",
+        "Assurez-vous de bien comprendre les frais de réseau qui peuvent s'appliquer selon la cryptomonnaie et le portefeuille que vous choisissez.",
+        "Les tokens de presale sont généralement réclamables après la fin de la presale, alors soyez patient et suivez les mises à jour de l'équipe."
+      ]
+    }
+  ]
+}

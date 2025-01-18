@@ -1,0 +1,56 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+
+  & .text {
+    background-color: var(--background-four);
+    background: linear-gradient(
+      to bottom,
+      var(--background-five) 50%,
+      var(--background-two) 50%
+    );
+  }
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "logo links social" "copy copy copy";
+  grid-template-columns: 200px 600px 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  padding-top: 40px;
+
+  & .logo {
+    grid-area: logo;
+  }
+
+  & .links {
+    grid-area: links;
+    display: flex;
+    flex-wrap: wrap;
+
+    & .link {
+      width: 50%;
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+
+  & .socials {
+    grid-area: social;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+
+  & .copy {
+    grid-area: copy;
+    font-size: 14px;
+  }
+}

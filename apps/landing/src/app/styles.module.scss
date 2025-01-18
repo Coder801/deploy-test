@@ -1,0 +1,61 @@
+@mixin pixelBackground($color, $direction, $image) {
+  background-repeat: repeat-x;
+  background-color: $color;
+  background:
+    url($image) repeat-x center top,
+    linear-gradient(to bottom, transparent 100px, $color 100px, $color);
+  background-blend-mode: multiply;
+}
+
+.container {
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+
+  & > * {
+    position: relative;
+    min-height: 100vh;
+    scroll-snap-align: start;
+    padding-top: 100px;
+    box-sizing: border-box;
+
+    * > * {
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  // Home
+  & .hero {
+    background-color: var(--background-four);
+  }
+  & .system {
+    background-color: var(--background-one);
+  }
+  & .coin {
+    background-color: var(--background-one);
+  }
+  & .tokenomics {
+    background-color: var(--background-five);
+  }
+  & .planets {
+    background-color: var(--background-one);
+  }
+  & .whatIs {
+    background-color: var(--background-four);
+  }
+  & .roadmap {
+    background-color: var(--background-four);
+  }
+  & .faq {
+    background-color: var(--background-one);
+  }
+  & .footer {
+    min-height: auto;
+    height: auto;
+    padding: 0;
+    background-color: var(--background-two);
+  }
+}

@@ -1,0 +1,33 @@
+.section {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  & .image {
+    position: absolute;
+    transform: scale(1);
+    left: -40%;
+    top: 500px;
+  }
+
+  & .content {
+    width: 680px;
+
+    & .title {
+      margin-bottom: 20px;
+    }
+
+    & .text {
+      margin-bottom: 20px;
+    }
+
+    & .card {
+      margin: 20px 0 40px;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+@use "@/styles/mixins.scss" as *;
+
+.container {
+  $borderWidth: 4px;
+
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  border: none;
+  background-position:
+    top left,
+    top right,
+    bottom left,
+    bottom right;
+  background-size: $borderWidth $borderWidth;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  font-family: var(--fontEditUndoBRK);
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+  margin: $borderWidth;
+
+  // Sizes
+  &.small {
+    padding: 3px 20px 0px;
+    height: 20px;
+    font-size: 20px;
+  }
+
+  &.medium {
+    padding: 3px 20px 0px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  &.large {
+    padding: 10px 70px 0px;
+    height: 132px;
+    font-size: 80px;
+  }
+
+  &.primary {
+    @include pixelBackground(
+      var(--secondary-two),
+      var(--secondary-two),
+      var(--primary-one)
+    );
+  }
+
+  &.transparent {
+    @include pixelBackground(
+      var(--secondary-one),
+      var(--secondary-one),
+      transparent
+    );
+  }
+
+  &.disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+}
+
+@media (max-width: 1024px) {
+}

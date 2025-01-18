@@ -1,0 +1,57 @@
+// Extends
+// ==============================
+.header-basic {
+  font-family: var(--fontEditUndoBRK);
+  letter-spacing: 0.005em;
+  text-shadow:
+    0.03em 0.04em 0 var(--secondary-one),
+    -0.03em -0.03em 0 var(--secondary-one),
+    0.05em 0.03em 0 var(--secondary-one),
+    0.05em -0.03em 0 var(--secondary-one);
+
+  &.type-2 {
+    font-family: var(--fontIBMPlexMono);
+  }
+}
+
+.paragraph-basic {
+  font-family: var(--fontEditUndoBRK);
+  letter-spacing: 0.005em;
+
+  &.type-2 {
+    font-family: var(--fontIBMPlexMono);
+  }
+}
+
+@for $i from 1 through 6 {
+  .header-h#{$i}-primary {
+    @extend .header-basic;
+    color: var(--header-primary);
+  }
+  .header-h#{$i}-secondary {
+    @extend .header-basic;
+    color: var(--header-secondary);
+  }
+}
+
+.paragraph {
+  &-primary {
+    @extend .paragraph-basic;
+    color: var(--text-primary);
+  }
+  &-secondary {
+    @extend .paragraph-basic;
+    color: var(--text-secondary);
+  }
+}
+
+// Headers levels
+.header-h2-primary {
+  font-size: 72px;
+  line-height: 80px;
+}
+
+.header-h4-primary {
+  font-size: 24px;
+  text-shadow: unset;
+}

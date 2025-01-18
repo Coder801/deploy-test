@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 100;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  width: 100%;
+  transition: 0.3s ease;
+
+  &.fixed {
+    background-color: var(--background-one);
+  }
+
+  & .logo {
+    &::after {
+      display: block;
+      margin: 0 20px;
+      background-color: #9595e4;
+      width: 2px;
+      height: 45px;
+      content: "";
+    }
+  }
+
+  & .navigation {
+    margin-right: 20px;
+  }
+
+  & .button {
+    margin-left: auto;
+  }
+}

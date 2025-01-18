@@ -1,0 +1,23 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  & .bottomBackground {
+    position: absolute;
+    left: 0;
+    top: unset;
+    z-index: 0;
+    bottom: 0;
+  }
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+
+  & .timeline {
+    margin: 40px 0;
+  }
+}

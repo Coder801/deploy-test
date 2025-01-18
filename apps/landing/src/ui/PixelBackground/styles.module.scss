@@ -1,0 +1,119 @@
+@use "@/styles/mixins.scss" as *;
+
+.container {
+  position: relative;
+  width: 100%;
+
+  & .background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: repeat-x;
+  }
+
+  &.bottom {
+    & .background {
+      transform: scale(-1);
+    }
+  }
+
+  &.type-1 {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+    & .background {
+      background-image: url("./assets/image/purple-light.png"),
+        url("./assets/image/purple-medium.png"),
+        url("./assets/image/purple-dark.png"),
+        url("./assets/image/purple-black.png"),
+        linear-gradient(
+          to bottom,
+          transparent 100px,
+          var(--background-five) 100px,
+          var(--background-five) 200px,
+          var(--background-three) 200px,
+          var(--background-three) 300px,
+          var(--background-two) 300px,
+          var(--background-two) 400px,
+          var(--background-one) 400px,
+          var(--background-one) 600px
+        );
+      background-position:
+        0 0,
+        0 100px,
+        0 200px,
+        0 300px;
+    }
+  }
+
+  &.type-2 {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+    & .background {
+      background-image: url("./assets/image/purple-dark.png"),
+        url("./assets/image/purple-medium.png"),
+        linear-gradient(
+          to bottom,
+          transparent 100px,
+          var(--background-two) 100px,
+          var(--background-two) 200px,
+          var(--background-three) 300px
+        );
+      background-position:
+        0 0,
+        0 100px,
+        0 0;
+    }
+  }
+  &.type-3 {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+    & .background {
+      background-image: url("./assets/image/purple-medium.png");
+      background-position: 0 0;
+    }
+  }
+
+  &.type-4 {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+    & .background {
+      background-image: url("./assets/image/purple-black.png"),
+        url("./assets/image/purple-dark.png"),
+        url("./assets/image/purple-medium.png"),
+        url("./assets/image/purple-light.png"),
+        linear-gradient(
+          to bottom,
+          transparent 100px,
+          var(--background-one) 100px,
+          var(--background-one) 200px,
+          var(--background-two) 200px,
+          var(--background-two) 300px,
+          var(--background-three) 300px,
+          var(--background-three) 400px,
+          var(--background-five) 400px,
+          var(--background-five) 600px
+        );
+      background-position:
+        0 0,
+        0 100px,
+        0 200px,
+        0 300px;
+    }
+  }
+
+  @include respond-to(md) {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+.container {
+  margin: 0 auto;
+  padding: 30px;
+  width: 100%;
+
+  &.type-1 {
+    background-color: var(--background-two);
+  }
+  &.type-2 {
+    background-color: var(--background-six);
+  }
+}

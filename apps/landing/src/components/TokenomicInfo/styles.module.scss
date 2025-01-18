@@ -1,0 +1,66 @@
+@use "sass:color";
+@use "sass:list";
+
+$colors: #ffd490, #a8a8e6, #625691, #b65f55, #ffe3b8, #bda47e;
+
+.container {
+  & .info {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transform: scale(0.9);
+
+    & .item {
+      margin-bottom: 20px;
+      position: relative;
+      padding-left: 40px;
+
+      @for $i from 1 through list.length($colors) {
+        &:nth-child(6n + #{$i}) .bullet {
+          $color: list.nth($colors, $i);
+          background-color: $color;
+          box-shadow: 0px 4px 0px 0px color.scale($color, $lightness: -50%);
+        }
+      }
+
+      & .bullet {
+        width: 14px;
+        height: 22px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 5px;
+
+        &::before,
+        &::after {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 22px;
+          height: 22px;
+          top: 4px;
+          background-color: inherit;
+          z-index: -1;
+        }
+
+        &::before {
+          left: 0px;
+          top: 0;
+          width: 14px;
+        }
+
+        &::after {
+          height: 14px;
+          right: -4px;
+          z-index: -2;
+          box-shadow: inherit;
+        }
+      }
+
+      & .title {
+        display: flex;
+        gap: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@use "sass:color";
+
+$captionBgColor: var(--background-two);
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  & .list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+
+    & .row {
+      width: 24%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      position: relative;
+    }
+
+    .row:nth-child(7n + 4),
+    .row:nth-child(7n + 5),
+    .row:nth-child(7n + 6),
+    .row:nth-child(7n + 7) {
+      width: calc(25%);
+    }
+
+    & .caption {
+      display: flex;
+      width: 112px;
+      height: 40px;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      font-family: var(--fontEditUndoBRK);
+      color: var(--text-secondary);
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      text-shadow:
+        3px 3px var(--secondary-one),
+        -3px -3px var(--secondary-one),
+        3px -3px var(--secondary-one),
+        -3px 3px var(--secondary-one),
+        -1px 5px var(--secondary-one);
+    }
+  }
+}

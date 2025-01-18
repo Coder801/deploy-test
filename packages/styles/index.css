@@ -1,0 +1,139 @@
+/* ===========================
+Custom Fonts
+=========================== */
+@import url("https://fonts.cdnfonts.com/css/ibm-plex-mono-3");
+@import url("https://fonts.cdnfonts.com/css/edit-undo-brk");
+/* ===========================
+Base
+=========================== */
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: var(--background-one);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:root {
+  --color-one: #ffd490;
+  --color-two: #a8a8e6;
+  --color-three: #625691;
+  --color-four: #b65f55;
+  --color-five: #ffe3b8;
+  --color-six: #bda47e;
+  --color-seven: #f7b279;
+  --color-eight: #e77560;
+  --color-nine: #feffdc;
+  --white-one: #ffffff;
+  --white-two: #dadaff;
+  --background-one: #7f7fc8;
+  --background-two: #9a9ae6;
+  --background-three: #a9a9eb;
+  --background-four: #c9ccf2;
+  --background-five: #c0c0f3;
+  --background-six: #dbd7fc;
+  --primary-one: #ffd490;
+  --secondary-one: #463f60;
+  --secondary-two: #473d61;
+  --secondary-three: #57526f;
+  --secondary-four: #453e5f;
+  --danger-one: #e31d1c;
+  --header-primary: #ffffff;
+  --header-secondary: #f7b279;
+  --text-primary: #463f60;
+  --text-secondary: #ffffff;
+  --fontEditUndoBRK: "Edit Undo BRK", sans-serif;
+  --fontIBMPlexMono: "IBM Plex Mono", sans-serif;
+}
+
+/* ===========================
+Typography
+=========================== */
+html {
+  font-size: 18px;
+  font-family: var(--fontIBMPlexMono);
+}
+
+input,
+select,
+textarea {
+  font-family: var(--fontIBMPlexMono);
+}
+
+h1 {
+  font-size: 164px;
+  font-family: var(--fontIBMPlexMono);
+}
+
+h2 {
+  font-size: 72px;
+  font-family: var(--fontIBMPlexMono);
+}
+
+h3 {
+  font-size: 54px;
+  font-family: var(--fontIBMPlexMono);
+}
+
+h4 {
+  font-size: 20px;
+  font-family: var(--fontIBMPlexMono);
+}
+
+h5 {
+  font-size: 18px;
+  font-family: var(--fontIBMPlexMono);
+}
+
+h6 {
+  font-size: 16px;
+  font-family: var(--fontIBMPlexMono);
+}
+
+ol,
+ul {
+  margin-left: 34px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+p,
+li {
+  margin-top: 0;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.5px;
+  color: var(--white-one);
+}
+
+li ol,
+li ul {
+  margin-left: 20px;
+}
+
+strong {
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=index.css.map */
